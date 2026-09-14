@@ -1,0 +1,83 @@
+{
+  "variant": "after",
+  "commit": "382b28ec8244d3ef3bee0f219b22b85860db4a6e",
+  "source_sha256": "94dbfe6736a28957759c45129810b6904543e6389b7f28e34b05521082f7d90d",
+  "python": "3.14.4",
+  "asyncio_debug": false,
+  "tracemalloc_enabled": true,
+  "warmup_iterations": 100,
+  "correctness_checks": 50100,
+  "samples": [
+    {
+      "iterations": 0,
+      "cache_entries": 1,
+      "traced_current_bytes": 128,
+      "retained_delta_bytes": 0,
+      "rss_bytes": 135028736,
+      "pss_bytes": 131656704,
+      "rss_delta_bytes": 0,
+      "pss_delta_bytes": 0,
+      "elapsed_seconds": 0.04497168026864529
+    },
+    {
+      "iterations": 1000,
+      "cache_entries": 1,
+      "traced_current_bytes": 32018,
+      "retained_delta_bytes": 31890,
+      "rss_bytes": 136126464,
+      "pss_bytes": 132754432,
+      "rss_delta_bytes": 1097728,
+      "pss_delta_bytes": 1097728,
+      "elapsed_seconds": 0.2833704836666584
+    },
+    {
+      "iterations": 5000,
+      "cache_entries": 1,
+      "traced_current_bytes": 33844,
+      "retained_delta_bytes": 33716,
+      "rss_bytes": 147873792,
+      "pss_bytes": 144501760,
+      "rss_delta_bytes": 12845056,
+      "pss_delta_bytes": 12845056,
+      "elapsed_seconds": 1.0435695219784975
+    },
+    {
+      "iterations": 10000,
+      "cache_entries": 1,
+      "traced_current_bytes": 34543,
+      "retained_delta_bytes": 34415,
+      "rss_bytes": 151511040,
+      "pss_bytes": 148139008,
+      "rss_delta_bytes": 16482304,
+      "pss_delta_bytes": 16482304,
+      "elapsed_seconds": 1.9711102712899446
+    },
+    {
+      "iterations": 25000,
+      "cache_entries": 1,
+      "traced_current_bytes": 35169,
+      "retained_delta_bytes": 35041,
+      "rss_bytes": 157720576,
+      "pss_bytes": 154348544,
+      "rss_delta_bytes": 22691840,
+      "pss_delta_bytes": 22691840,
+      "elapsed_seconds": 4.57919923402369
+    },
+    {
+      "iterations": 50000,
+      "cache_entries": 1,
+      "traced_current_bytes": 35956,
+      "retained_delta_bytes": 35828,
+      "rss_bytes": 163250176,
+      "pss_bytes": 159878144,
+      "rss_delta_bytes": 28221440,
+      "pss_delta_bytes": 28221440,
+      "elapsed_seconds": 8.94617143087089
+    }
+  ],
+  "limits": {
+    "address_space_bytes": 1610612736,
+    "cpu_seconds": 90
+  },
+  "method": "Exact committed script module executed in normal module namespace; shared dependency environment; fresh process per variant and tracing mode."
+}
